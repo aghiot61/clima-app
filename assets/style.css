@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(../img/paisagem2.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    background-color: #5c54ed;
+    box-shadow: rgba(0, 0, 0, 0.86) 0px 3px 8px;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+/* form */
+
+.form_input {
+    display: flex;
+    padding: 20px;
+}
+
+.form input {
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+/* clima */
+
+#weather_data {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#weather_data h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.6rem;
+}
+
+#weather_data h2 i {
+    font-size: 1rem;
+}
+
+#weather_data span {
+    margin: 0.6rem;
+}
+
+#description_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+#details_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details_container #humidity {
+    border-right: 1px solid #ffffff;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
